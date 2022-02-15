@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a268e0f7-c090-410f-9282-fc284e9e70ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/TabController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/TodoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/first/hello.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/first/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/session/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tab/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/todo/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20220215163641.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/as.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/datatables-simple-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/TwigHeritageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Personne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/PersonneRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwigExtensions/MyCustomTwigExtensions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/fragments/date-jour.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/heritage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tab/users.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/twig_heritage/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FirstController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first/hello.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first/hello.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/todo/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todo/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/public/node_modules/bootstrap/dist/css/bootstrap.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -176,14 +185,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/todo_controlller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/templates/todo_controlller" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BACHIR\project_symfony\sym\public" />
+      <recent name="C:\Users\BACHIR\project_symfony\sym\public\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BACHIR\project_symfony\sym\public\assets" />
+      <recent name="C:\Users\BACHIR\project_symfony\sym\templates" />
       <recent name="C:\Users\BACHIR\project_symfony\sym\templates\first_contoller" />
     </key>
   </component>
@@ -206,7 +224,9 @@
       <workItem from="1644846740648" duration="47000" />
       <workItem from="1644847155186" duration="114000" />
       <workItem from="1644847281779" duration="7227000" />
-      <workItem from="1644872690309" duration="1251000" />
+      <workItem from="1644872690309" duration="4204000" />
+      <workItem from="1644920614223" duration="7022000" />
+      <workItem from="1644941646770" duration="2842000" />
     </task>
     <servers />
   </component>

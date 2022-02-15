@@ -14,6 +14,7 @@ class FirstController extends AbstractController
     public function template() {
         return $this->render('template.html.twig');
     }
+
     #[Route('/order/{maVar}', name: 'test.order.route')]
     public function testOrderRuote($maVar) {
         return new Response("
@@ -26,8 +27,8 @@ class FirstController extends AbstractController
     {
         // chercher au la abse de données vos users
         return $this->render('first/index.html.twig', [
-            'name' => 'Saidi',
-            'firstname' => 'Bechir'
+            'name' => 'Sellaouti',
+            'firstname' => 'Aymen'
         ]);
     }
 
